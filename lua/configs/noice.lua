@@ -15,6 +15,7 @@ require("noice").setup {
       enabled = false,
     },
   },
+  messages = { view = "mini" },
 
   views = {
     cmdline_popup = {
@@ -30,10 +31,16 @@ require("noice").setup {
         height = "auto",
       },
     },
+    mini = {
+      position = {
+        row = -1,
+        col = "50%",
+      },
+    },
     popupmenu = {
       relative = "editor",
       position = {
-        row = 8,
+        row = -1,
         col = "50%",
       },
       size = {
