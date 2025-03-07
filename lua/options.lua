@@ -12,6 +12,7 @@ o.conceallevel = 1
 o.breakindent = true
 o.autoread = true
 o.swapfile = false
+o.clipboard = "unnamedplus"
 -- o.guicursor = "i:block"
 
 o.spelllang = "en"
